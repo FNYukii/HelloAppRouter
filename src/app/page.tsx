@@ -1,5 +1,5 @@
 export default function Home() {
-
+	
   return (
 
     <main className="mt-4 w-full mx-auto px-4 lg:width-lg lg:px-0">
