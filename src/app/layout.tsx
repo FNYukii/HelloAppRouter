@@ -25,6 +25,7 @@ export default function RootLayout({
 						<div className='flex gap-8'>
 							<Link href="/" className='hover:underline'>Top</Link>
 							<Link href="/about" className='hover:underline'>About</Link>
+							<Link href="/contact" className='hover:underline'>Contact</Link>
 						</div>
 					</div>
 				</header>
