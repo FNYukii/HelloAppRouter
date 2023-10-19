@@ -1,10 +1,11 @@
-import Link from "next/link";
-
 export default function Home() {
+
   return (
-    <main>
-			<h1>Hello Next App Router</h1>
-			<Link href="/about" className="hover:underline">About</Link>
+
+    <main className="mt-4 w-full mx-auto px-4 lg:width-lg lg:px-0">
+
+			<h1 className="text-2xl font-bold">Top</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates tempora vel esse!</p>
 		</main>
   )
 }
