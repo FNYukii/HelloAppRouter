@@ -12,8 +12,8 @@ function Header() {
 
 				<div className='flex gap-8'>
 					<Link href="/" className='hover:underline'>Top</Link>
+					<Link href="/spots" className='hover:underline'>Spots</Link>
 					<Link href="/about" className='hover:underline'>About</Link>
-					<Link href="/contact" className='hover:underline'>Contact</Link>
 				</div>
 			</div>
 		</header>
