@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import '../styles/globals.css'
-import Link from 'next/link'
+import Header from '@/components/Header'
 
 export const metadata: Metadata = {
 	title: "Hello Next - App Router",
@@ -16,19 +16,7 @@ export default function RootLayout({
 		<html>
 			<body>
 
-				<header className='w-full mx-auto px-4 lg:width-lg lg:px-0'>
-
-					<div className='flex justify-between items-center py-2'>
-
-						<Link href="/" className='text-4xl font-light'>Hello Next - App Router</Link>
-
-						<div className='flex gap-8'>
-							<Link href="/" className='hover:underline'>Top</Link>
-							<Link href="/about" className='hover:underline'>About</Link>
-							<Link href="/contact" className='hover:underline'>Contact</Link>
-						</div>
-					</div>
-				</header>
+				<Header />
 
 				<div>{children}</div>
 			</body>
