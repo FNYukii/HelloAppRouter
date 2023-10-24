@@ -12,17 +12,7 @@ function page() {
 			id: "yegjatfibekjyyuhbmah",
 			spotName: "麻布台ヒルズ",
 			imageUrls: ["https://firebasestorage.googleapis.com/v0/b/reactperformancecomperison2.appspot.com/o/images%2FIMG_4622_19.jpg?alt=media&token=818fc816-555b-4d60-9cb4-06c18e60b66d"]
-		},
-		{
-			id: "yuhkuyihbkfajbkugyi",
-			spotName: "六本木ヒルズ",
-			imageUrls: ["https://source.unsplash.com/random/?city"]
-		},
-		{
-			id: "nvkajghekughakjhku",
-			spotName: "愛宕グリーンヒルズ",
-			imageUrls: ["https://source.unsplash.com/random/?city"]
-		},
+		}
 	]
 
 	return (
