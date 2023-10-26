@@ -21,7 +21,7 @@ function page() {
 
 			<h1 className="mt-2 text-2xl font-bold">Spots</h1>
 
-			<div className="mt-2 grid grid-cols-3 gap-x-4 gap-y-8">
+			<div className="mt-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3     gap-x-4 gap-y-8">
 
 				{spots.map((spot, index) => (
 
