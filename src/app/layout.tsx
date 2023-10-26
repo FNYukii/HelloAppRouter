@@ -18,7 +18,7 @@ export default function RootLayout({
 
 				<Header />
 
-				<div>{children}</div>
+				<main className="mt-4 w-full mx-auto px-4 lg:w-[1024px] lg:px-0">{children}</main>
 			</body>
 		</html>
 	)

@@ -4,7 +4,7 @@ function Header() {
 
 	return (
 
-		<header className='w-full mx-auto px-4 lg:width-lg lg:px-0'>
+		<header className='w-full mx-auto px-4 lg:w-[1024px] lg:px-0'>
 
 			<div className='flex justify-between items-center py-2'>
 

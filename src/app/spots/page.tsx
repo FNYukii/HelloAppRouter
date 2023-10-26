@@ -17,7 +17,7 @@ function page() {
 
 	return (
 
-		<main className='mt-4 w-full mx-auto px-4 lg:width-lg lg:px-0'>
+		<div>
 
 			<h1 className="mt-2 text-2xl font-bold">Spots</h1>
 
@@ -42,7 +42,7 @@ function page() {
 					</div>
 				))}
 			</div>
-		</main>
+		</div>
 	)
 }
 
